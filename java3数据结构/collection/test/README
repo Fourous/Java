@@ -1,0 +1,11 @@
+这是一个测试，测在linux中的Ｊａｖａ文件编译
+如结构所示定义两个文件A.java B.java
+其中B.java里面是main函数入口
+Ａ文件在定义时候，首行pakage com.abc
+将其放包com.abc中
+
+当执行javac -d A.java B.java 
+文件结构变成com/abc文件夹，在文件夹里面放着A.class　编译文件，这里编译package 将编译文件放在文件夹中进行调用
+然后入口函数也就是Ｂ文件放在根目录
+运行的时候直接从主函数进行运行
+java B
