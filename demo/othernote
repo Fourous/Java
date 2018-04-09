@@ -1,0 +1,13 @@
+javac指定环境变量javac -classpath %CLASSPATH% *.java
+这里疑问？？？？？当需要引用其他目录下的class文件时候，怎么编译当目录下的java文件
+
+
+查看运行版本java -version
+
+查看jdk的路径
+which is java
+ls -lrt /usr/bin/java
+ls -lrt /etc/alternatives/java
+得到/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+这里的lrt 是看到软连接的去处，因为编译是来自Ｊｄｋ
+

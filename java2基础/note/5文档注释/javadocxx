@@ -35,3 +35,8 @@ javadoc 标签:
 * @author runoob
 * @version 1.2
 */
+
+avadoc 工具将你 Java 程序的源代码作为输入，输出一些包含你程序注释的HTML文件。
+
+每一个类的信息将在独自的HTML文件里。javadoc 也可以输出继承的树形结构和索引。
+
